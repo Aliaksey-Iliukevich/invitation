@@ -588,13 +588,28 @@ video {
   }
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-2\.5 {
   margin-bottom: 0.625rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-48 {
@@ -613,56 +628,24 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-\[30px\] {
-  margin-bottom: 30px;
-}
-
-.mr-16 {
-  margin-right: 4rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
 }
 
-.flex {
-  display: flex;
+.mr-16 {
+  margin-right: 4rem;
 }
 
-.h-\[800px\] {
-  height: 800px;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-auto {
@@ -677,8 +660,8 @@ video {
   max-width: 318px;
 }
 
-.max-w-\[320px\] {
-  max-width: 320px;
+.max-w-\[325px\] {
+  max-width: 325px;
 }
 
 .max-w-\[336px\] {
@@ -687,14 +670,6 @@ video {
 
 .max-w-\[378px\] {
   max-width: 378px;
-}
-
-.max-w-\[325px\] {
-  max-width: 325px;
-}
-
-.max-w-\[350px\] {
-  max-width: 350px;
 }
 
 .max-w-full {
@@ -727,10 +702,6 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
-}
-
-.pb-14 {
-  padding-bottom: 3.5rem;
 }
 
 .text-left {
@@ -769,17 +740,17 @@ video {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-\[40px\] {
   font-size: 40px;
 }
 
 .text-\[45px\] {
   font-size: 45px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-backgroundColor {
@@ -797,6 +768,22 @@ video {
   color: rgb(241 247 255 / var(--tw-text-opacity));
 }
 
-.text-\[45PX\] {
-  color: 45PX;
+.underline {
+  text-decoration-line: underline;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-0 {
+  text-underline-offset: 0px;
+}
+
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
+.underline-offset-auto {
+  text-underline-offset: auto;
 }    
