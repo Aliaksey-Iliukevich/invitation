@@ -6,10 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        textColor: `#364E71`,
+        Pcolor: '#575B61',
+        headersColor: `#364E71`,
         backgroundColor: '#EFF0F2',
-        timingBg: '#7890B6B2',
-        timingHeader: '#F1F7FF'
+        blueBg: '#7890B6B2',
+        lightTextColor: '#F1F7FF'
       }, 
       fontFamily: {
         headers: ['"Viaoda Libre"', 'serif'],
