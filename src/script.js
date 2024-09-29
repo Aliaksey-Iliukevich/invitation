@@ -1,20 +1,26 @@
 let currentSection = 0;
 const sections = document.querySelectorAll("section");
+const scrollThreshold = 100;
+let isScrolling = false;
 
 const scrollToSection = (index) => {
-    if (index < 0 || index >= sections.length) return;
+    if (index < 0 || index >= sections.length || isScrolling) return;
+    isScrolling = true;
     sections[index].scrollIntoView({ behavior: "smooth" });
-    currentSection = index;
+    currentSection = index; 
+    setTimeout(() => isScrolling = false, 1000); 
 };
 
 document.addEventListener("wheel", (event) => {
-    if (event.deltaY > 0) { 
-        scrollToSection(currentSection + 1);
-    } else if (event.deltaY < 0) { 
-        scrollToSection(currentSection - 1);
+    if (Math.abs(event.deltaY) > scrollThreshold) {
+        if (event.deltaY > 0) { 
+            scrollToSection(currentSection + 1);
+        } else { 
+            scrollToSection(currentSection - 1);
+        }
+        event.preventDefault(); 
     }
-    event.preventDefault(); 
-}, { passive: false }); 
+}, { passive: false });
 
 let touchStartY = 0;
 
@@ -24,10 +30,12 @@ document.addEventListener("touchstart", (event) => {
 
 document.addEventListener("touchmove", (event) => {
     const touchEndY = event.touches[0].clientY;
-    if (touchStartY - touchEndY > 50) { 
-        scrollToSection(currentSection + 1);
-    } else if (touchEndY - touchStartY > 50) {
-        scrollToSection(currentSection - 1);
+    if (Math.abs(touchStartY - touchEndY) > scrollThreshold) {
+        if (touchStartY - touchEndY > 0) { 
+            scrollToSection(currentSection + 1);
+        } else { 
+            scrollToSection(currentSection - 1);
+        }
+        event.preventDefault();
     }
-    event.preventDefault();
 });
