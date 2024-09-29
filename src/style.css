@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;    
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow: hidden; /* Скрыть прокрутку страницы */
+}
+section {
+    height: 100vh; /* Каждая секция на весь экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
