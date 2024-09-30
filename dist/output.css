@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -626,28 +630,16 @@ video {
   margin-left: 120px;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-\[60px\] {
   margin-top: 60px;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
 }
 
 .flex {
@@ -844,6 +836,10 @@ section {
     padding-top: 3.5rem;
   }
 
+  .xs\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
   .xs\:text-\[18px\] {
     font-size: 18px;
   }
@@ -852,24 +848,8 @@ section {
     font-size: 40px;
   }
 
-  .xs\:text-\[50px\] {
-    font-size: 50px;
-  }
-
   .xs\:text-\[65px\] {
     font-size: 65px;
-  }
-
-  .xs\:text-\[60px\] {
-    font-size: 60px;
-  }
-
-  .xs\:text-\[85px\] {
-    font-size: 85px;
-  }
-
-  .xs\:text-\[90px\] {
-    font-size: 90px;
   }
 }
 
@@ -896,18 +876,6 @@ section {
 
   .sm\:text-\[75px\] {
     font-size: 75px;
-  }
-
-  .sm\:text-\[80px\] {
-    font-size: 80px;
-  }
-
-  .sm\:text-\[90px\] {
-    font-size: 90px;
-  }
-
-  .sm\:text-\[50px\] {
-    font-size: 50px;
   }
 }
 
