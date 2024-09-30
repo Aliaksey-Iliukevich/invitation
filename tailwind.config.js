@@ -5,6 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '320px',  // Небольшие экраны (например, iPhone SE)
+        'sm': '413px',  // Устройства с большим размером экрана (например, старые Android)
+        'md': '640px',  // Устройства средней величины
+        'lg': '768px',  // Переход на tablets
+        'xl': '1024px',
+        '2xl': '1280px',
+      },
       colors: {
         Pcolor: '#575B61',
         headersColor: `#364E71`,
