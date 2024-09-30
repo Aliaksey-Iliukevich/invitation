@@ -9,12 +9,17 @@ module.exports = {
         Pcolor: '#575B61',
         headersColor: `#364E71`,
         backgroundColor: '#EFF0F2',
-        blueBg: '#7890B6B2',
+        blueBg: '#546992',
         lightTextColor: '#F1F7FF'
+
       }, 
       fontFamily: {
         headers: ['"Viaoda Libre"', 'serif'],
-        text: ['"Montserrat"', 'sans-serif']
+        text: ['"Montserrat"', 'sans-serif'],
+        mulish: ['"Mulish"', 'sans-serif'] , 
+        ms_madi: ['"Ms Madi"', 'serif'],
+        betmo: ['"Betmo"', 'serif'],
+        pinyon_script: ['"Pinyon Script"', 'serif']
       }
     },
   },

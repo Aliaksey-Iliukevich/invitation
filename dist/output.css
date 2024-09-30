@@ -612,10 +612,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -632,20 +628,48 @@ video {
   margin-bottom: 25px;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mb-\[35px\] {
+  margin-bottom: 35px;
+}
+
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
 .mb-\[60px\] {
   margin-bottom: 60px;
+}
+
+.ml-\[120px\] {
+  margin-left: 120px;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .flex {
   display: flex;
 }
 
+.h-\[75px\] {
+  height: 75px;
+}
+
 .h-auto {
   height: auto;
+}
+
+.w-\[104px\] {
+  width: 104px;
 }
 
 .w-full {
@@ -676,10 +700,6 @@ video {
   max-width: 378px;
 }
 
-.max-w-full {
-  max-width: 100%;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -692,12 +712,32 @@ video {
   justify-content: center;
 }
 
-.bg-blueBg {
-  background-color: #7890B6B2;
+.rounded-full {
+  border-radius: 9999px;
 }
 
-.pr-6 {
+.border {
+  border-width: 1px;
+}
+
+.border-headersColor {
+  --tw-border-opacity: 1;
+  border-color: rgb(54 78 113 / var(--tw-border-opacity));
+}
+
+.bg-blueBg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(84 105 146 / var(--tw-bg-opacity));
+}
+
+.px-6 {
+  padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-14 {
@@ -712,16 +752,28 @@ video {
   text-align: center;
 }
 
+.font-betmo {
+  font-family: "Betmo", serif;
+}
+
 .font-headers {
   font-family: "Viaoda Libre", serif;
 }
 
-.font-text {
-  font-family: "Montserrat", sans-serif;
+.font-ms_madi {
+  font-family: "Ms Madi", serif;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+}
+
+.font-pinyon_script {
+  font-family: "Pinyon Script", serif;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[20px\] {
@@ -732,8 +784,8 @@ video {
   font-size: 30px;
 }
 
-.text-\[38px\] {
-  font-size: 38px;
+.text-\[36px\] {
+  font-size: 36px;
 }
 
 .text-\[40px\] {
@@ -744,8 +796,12 @@ video {
   font-size: 45px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-\[70px\] {
+  font-size: 70px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .text-xl {
@@ -779,12 +835,10 @@ html {
 
 body {
   overflow: hidden;
-  /* Скрыть прокрутку страницы */
 }
 
 section {
   height: 100vh;
-  /* Каждая секция на весь экран */
   display: flex;
   justify-content: center;
   align-items: center;
