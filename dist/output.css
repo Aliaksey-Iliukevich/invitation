@@ -768,10 +768,6 @@ video {
   font-family: "Mulish", sans-serif;
 }
 
-.font-pinyon_script {
-  font-family: "Pinyon Script", serif;
-}
-
 .text-\[18px\] {
   font-size: 18px;
 }
@@ -794,6 +790,10 @@ video {
 
 .text-\[45px\] {
   font-size: 45px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-\[70px\] {
