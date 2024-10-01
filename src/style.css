@@ -1,17 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;    
-
-html {
-    scroll-behavior: smooth;
-}
 body {
-    overflow: hidden;
     box-sizing: border-box
-}
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
