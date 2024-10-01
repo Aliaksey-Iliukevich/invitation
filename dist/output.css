@@ -566,12 +566,8 @@ video {
   bottom: 0px;
 }
 
-.left-\[120px\] {
-  left: 120px;
-}
-
-.left-\[130px\] {
-  left: 130px;
+.left-\[140px\] {
+  left: 140px;
 }
 
 .-mt-4 {
@@ -743,6 +739,10 @@ video {
   padding-bottom: 50px;
 }
 
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
 .pt-\[200px\] {
   padding-top: 200px;
 }
@@ -761,10 +761,6 @@ video {
 
 .pt-\[88px\] {
   padding-top: 88px;
-}
-
-.pt-\[10px\] {
-  padding-top: 10px;
 }
 
 .text-left {
