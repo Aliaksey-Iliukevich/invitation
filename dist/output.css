@@ -570,6 +570,10 @@ video {
   left: 140px;
 }
 
+.left-\[150px\] {
+  left: 150px;
+}
+
 .-mt-4 {
   margin-top: -1rem;
 }
